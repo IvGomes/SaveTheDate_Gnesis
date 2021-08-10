@@ -15,17 +15,6 @@ html {
 /*  */
 /* CONFIGURACOES DE TAG PADRAO */
 /*  */
-
-header {
-    display: flex;
-    position: fixed;
-    top: 0;
-    bottom: auto;
-    width: 100%;
-    background-color: var(--mars-primario);
-    padding: 1rem 2rem;
-    z-index: 9999}
-    
 body {
     height: 100%;
     background-color: var(--mars-primario);
@@ -46,6 +35,59 @@ section {
         
 h2 {
     font-family: 'Dancing Script', pacifico, cursive;}
+
+a {
+    color: inherit;
+    text-decoration: none;}
+a:hover {
+    color: inherit;}
+a:active {
+    color: inherit;}
+a:visited {
+    color: inherit;}
+                
+
+/*  */
+/* MENU */
+/*  */
+#topo {
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: auto;
+    width: 100%;
+    color: #fff;
+    background-color: var(--mars-primario);
+    padding: 1rem 2rem;
+    z-index: 9999}
+#topo > h1 {
+    margin: 0 auto 0 0}
+#topo > .menu {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase}
+#topo a.option {
+    display: flex;
+    height: 100%;
+    border-left: 0.2rem solid var(--mars-claro);
+    border-radius: 0.5rem;
+    padding: 0 2rem;
+    }
+#topo a.option:nth-child(2n){
+    margin-left: 0.5rem;
+}
+#topo > .menu > a.option {
+    transition: all 300ms}
+#topo > .menu > a.option:hover {
+    color: var(--light);
+    background-color: var(--mars-claro);
+    border-left: 0.2rem solid var(--light)}
+#topo strong {
+    display: block;
+    margin: auto;
+}
+
+
 
 /*  */
 /* BOTAO */
