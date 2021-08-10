@@ -1,0 +1,28 @@
+#presence_section {
+    background-color: #fff;
+    /* background-image: url(/src/images/bg/Declaração-teste.png); */
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#presence_section h2 {
+    color: var(--dourado);
+    max-width: 50rem;
+    margin: 9rem auto 0 auto;
+    font-size: 5rem;
+    line-height: 5rem;
+}
+
+.article_text {
+    margin: auto 5rem;
+    font-size: 2rem;
+}
+
+.rsvp_btn {
+    color: var(--light);
+    background-color: var(--mars-primario);
+    margin: 0 auto 10rem auto;
+    font-size: 3rem;
+    text-transform: uppercase;
+}

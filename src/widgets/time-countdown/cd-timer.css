@@ -1,0 +1,44 @@
+#widget_timercd{
+  font-family: sans-serif;
+  color: #DBD2AF;
+  display: inline-block;
+  margin: 5rem auto auto auto;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+#widget_timercd > div{
+  padding: 1rem;
+  border-radius: 3px;
+  background: transparent;
+  display: inline-block;
+}
+
+#widget_timercd div > span{
+  padding: 1.5rem 4rem;
+  border-radius: 3px;
+  background: #c38636;
+  display: inline-block;
+}
+
+.smalltext{
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+/*  */
+/* MOBILE */
+/*  */
+@media screen and (max-width: 767px) {
+  #widget_timercd {
+    margin: 2rem auto;
+  }
+
+  #widget_timercd div > span {
+    padding: 0.5rem 2.5rem;
+    margin: 0;
+    font-size: 4rem;
+    font-weight: bold
+  }
+}

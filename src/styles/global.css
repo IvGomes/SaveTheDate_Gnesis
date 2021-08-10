@@ -1,0 +1,78 @@
+/*  */
+/* RESET */
+/*  */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 62.5%;
+    scroll-behavior: smooth}
+
+/*  */
+/* CONFIGURACOES DE TAG PADRAO */
+/*  */
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: auto;
+    width: 100%;
+    background-color: var(--mars-primario);
+    padding: 1rem 2rem;
+    z-index: 9999}
+    
+body {
+    height: 100%;
+    background-color: var(--mars-primario);
+    scroll-behavior: smooth}
+        
+main {
+    overflow: hidden;
+    scroll-behavior: smooth}
+    
+section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    scroll-behavior: smooth;
+    align-items: center;
+    text-align: center;}
+        
+h2 {
+    font-family: 'Dancing Script', pacifico, cursive;}
+
+/*  */
+/* BOTAO */
+/*  */
+.btn {
+    display: flex;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 2rem 2rem;
+    cursor: pointer}
+.btn a {
+    text-decoration: none}
+.btn a:visited {
+    color: inherit}
+
+
+/*  */
+/* CONTROLE DE AUDIO */
+/*  */
+audio {
+    position: fixed;
+    top: auto;
+    width: 200px;
+    height: 50px;
+    bottom:0}
+audio::-webkit-media-controls-enclosure {
+    border-radius: 0px 20px 0 0}
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    display: none}
