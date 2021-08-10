@@ -54,12 +54,15 @@ h2 {
     display: flex;
     border: none;
     border-radius: 0.5rem;
-    padding: 2rem 2rem;
     cursor: pointer}
-.btn a {
+.btn > a {
+    display: flex;
     text-decoration: none}
 .btn a:visited {
     color: inherit}
+.btn > a > strong {
+    margin: 2rem;
+}
 
 
 /*  */
