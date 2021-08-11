@@ -70,31 +70,6 @@
     animation-duration: 100s;
 }
 
-/* botao principal */
-.conteiner_pix_option {
-    position: absolute;
-    display: flex;
-    max-width: 50rem;
-    max-height: 20rem}
-.description {
-    display:flex;
-    flex-direction: column;
-    width:50%;
-    background-color: #2ebdaf;
-    justify-content: center;
-    align-items: center;
-    border-radius: 2rem 0 0 2rem;
-}
-.pix_image {
-    width: 50%;
-    background-color: #fff;
-    padding: 1rem 2rem;
-    border-radius: 0 2rem 2rem 0;
-}
-.pix_image img {
-    width: 100%;
-}
-
 /*  */
 /* botao */
 /*  */
