@@ -6,14 +6,6 @@
     background-repeat: no-repeat;
 }
 
-#presence_section h2 {
-    color: var(--dourado);
-    max-width: 50rem;
-    margin: 9rem auto 0 auto;
-    font-size: 5rem;
-    line-height: 5rem;
-}
-
 .article_text {
     margin: auto 5rem;
     font-size: 2rem;
