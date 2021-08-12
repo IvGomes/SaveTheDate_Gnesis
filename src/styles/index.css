@@ -32,7 +32,7 @@
 /* ...cards */
 .list_cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     column-gap: 5rem;
     max-width: 100rem;
     margin: 0 auto
@@ -56,7 +56,7 @@
 .inner_card {
     display: flex;
     width: 90%;
-    margin: 1rem auto;
+    margin: 0.5rem auto;
     border-radius: 1rem;
     text-align: left;
     align-items: center}
@@ -64,7 +64,10 @@
     display: grid;
     grid-template-columns: 1fr 3fr}
 .inner_card em {
-    background-color: #9779FF}
+    color: rgba(255, 255, 255, 1);
+    background-color: #9779FF;
+    padding: 1rem 2rem;
+    font-size: 1.2rem}
 .inner_card .conteiner_img {
     display: flex;
     height: 5rem;
@@ -101,17 +104,24 @@
     position: relative;
     max-width: 50rem;
     max-height: 20rem;
-    margin: auto auto 10rem auto}
+    margin: 3rem auto 10rem auto}
 ul.list_pix {
     display: flex}
 .description {
     display:flex;
     flex-direction: column;
     width:50%;
+    color: #fff;
     background-color: #2ebdaf;
+    padding: 0rem 1rem;
+    border-radius: 2rem 0 0 2rem;
     justify-content: center;
     align-items: center;
-    border-radius: 2rem 0 0 2rem}
+    font-family: Roboto;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: right;
+    text-transform: uppercase;}
 .pix_image {
     width: 50%;
     background-color: #fff;
