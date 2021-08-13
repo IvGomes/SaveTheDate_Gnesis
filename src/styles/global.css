@@ -59,6 +59,9 @@ a:visited {
 /*  */
 /* MENU */
 /*  */
+#topo .menu_icon_mobile.visible_phone {
+    display: none;
+}
 #topo {
     display: flex;
     position: fixed;
@@ -131,3 +134,37 @@ audio::-webkit-media-controls-enclosure {
 audio::-webkit-media-controls-current-time-display,
 audio::-webkit-media-controls-time-remaining-display {
     display: none}
+
+
+/*  */
+/* MOBILE */
+/*  */
+@media screen and (max-width: 767px) {
+    /* ...menu */
+    #topo .menu_icon_mobile.visible_phone {
+        display: block}
+    #topo > .menu.hidden_phone {
+        display: none}
+    
+    .menu_icon_mobile > .line {
+        background-color: #292929;
+        height: 2px;
+        display: block;
+    }
+    .menu_icon_mobile > .line + .line {
+        margin-top: 8px;
+    }
+
+    h2.title {
+        margin: 4rem auto 0 auto;
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+
+    article.article_text {
+        margin: auto auto auto auto;
+        font-size: 1.9rem;
+        font-style: italic;
+    }
+
+}
