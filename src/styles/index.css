@@ -60,7 +60,7 @@
     border-radius: 1rem;
     text-align: left;
     align-items: center}
-.inner_card > a {
+.inner_card > .conteiner {
     display: grid;
     grid-template-columns: 1fr 3fr}
 .inner_card em {
@@ -81,22 +81,32 @@
     padding: 1rem;
 }
 
+/* ...wedy */
 .inner_card.wedy {
     border: 2px solid #9779FF}
 .inner_card.wedy em {
     background-color: #9779FF;
 }
+/* ...magalu */
 .inner_card.magalu {
     border: 2px solid #0e89ff}
 .inner_card.magalu em {
     background-color: #0e89ff;
 }
+/* ...casas freitas */
 .inner_card.casas_freitas {
     border: 2px solid #074cbf}
 .inner_card.casas_freitas em {
     background-color: #074cbf}
 .inner_card.casas_freitas img {
     transform: translateY(-21px);
+}
+.modal.casas_freitas .location {
+    margin-bottom: 1rem;
+}
+.modal.casas_freitas .location > strong,
+.modal.casas_freitas .howto > strong {
+    text-transform: uppercase;
 }
 
 /* BOTAO PIX */
@@ -129,6 +139,15 @@ ul.list_pix {
 .pix_image img {
     width: 100%;
     padding: 1rem 2rem;
+}
+.modal.pix .qr_code {
+    display: flex;
+}
+.modal.pix .qr_code > strong {
+    margin-top: 1rem;
+}
+.modal.pix .qr_code img {
+    width: 20rem;
 }
 
 
@@ -178,7 +197,7 @@ ul.list_pix {
         flex-shrink: 0;
         margin: auto .5rem;
     }
-    .inner_card > a {
+    .inner_card > .conteiner {
         grid-template-columns: none;
         grid-template-rows: 1fr 2fr;
     }

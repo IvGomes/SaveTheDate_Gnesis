@@ -54,6 +54,10 @@ a:active {
     color: inherit;}
 a:visited {
     color: inherit;}
+
+.hidden {
+    display: none;
+}
                 
 
 /*  */
@@ -118,6 +122,57 @@ a:visited {
     margin: 2rem;
 }
 
+/*  */
+/* MODAL */
+/*  */
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 9999;
+}
+.modal .conteiner {
+    display: flex;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30%;
+    background-color: #FFF;
+    margin: auto;
+    padding: 3rem 2rem;
+    text-align: center;
+    justify-content: center;
+}
+.modal .close_modal {
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    color: var(--light);
+    background-color: var(--mars-primario);
+    margin: 0 auto;
+    padding: .5rem 1rem .7rem 1rem;
+    border-radius: 0 0 1rem 1rem;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.modal h3 {
+    margin: 2rem 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.modal .infos {
+    font-size: 1.5rem;
+}
+.open_modal {
+    cursor: pointer
+}
+
+
 
 /*  */
 /* CONTROLE DE AUDIO */
@@ -165,6 +220,11 @@ audio::-webkit-media-controls-time-remaining-display {
         margin: auto auto auto auto;
         font-size: 1.9rem;
         font-style: italic;
+    }
+
+    /* ...modal */
+    .modal .conteiner {
+        width: 90%;
     }
 
 }

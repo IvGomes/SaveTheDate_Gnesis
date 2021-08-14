@@ -17,7 +17,7 @@
         <!-- main section style -->
     <link rel="stylesheet" href="./src/styles/mainSection.css">
 
-    <script src="./src/scripts/index.js"></script>
+    <script src="./src/scripts/head-index.js"></script>
 
 
     <title>Dani & Ivan | Nos presenteie</title>
@@ -119,7 +119,7 @@
                         <div class="inner_card_group">
 
                             <div class="inner_card wedy">
-                                <a target="blank" href="https://sites.wedy.com/ivandani/registry/lua-de-mel">
+                                <a class="conteiner" target="blank" href="https://sites.wedy.com/ivandani/registry/lua-de-mel">
                                     <div class="conteiner_img">
                                         <img src="https://casamento.wedy.com/assets/wedy.svg" alt="logo do site wedy">
                                     </div>
@@ -130,7 +130,7 @@
                             </div>
     
                             <div class="inner_card magalu">
-                                <a target="blank" href="https://finalfeliz.de/ivandani/">
+                                <a class="conteiner" target="blank" href="https://finalfeliz.de/ivandani/">
                                     <div class="conteiner_img">
                                         <img src="https://logodownload.org/wp-content/uploads/2019/09/magalu-logo.png" alt="logo do site Magalu, representando o link para a lista de presentes da Magalu">
                                     </div>
@@ -141,14 +141,24 @@
                             </div>
     
                             <div class="inner_card casas_freitas">
-                                <a href="">
+                                <span class="conteiner open_modal" data-modal="casas_freitas">
                                     <div class="conteiner_img">
                                         <img src="https://static01.eu/ofertasy.com.br/images/store/350.png" alt="logo do site Casas Freitas, representando o link para a lista de presentes nas casas freitas">
                                     </div>
                                     <em>
                                         Nas casas freitas a opção é presencial! Clica no botão e pegue a informações para apresentar na unidade mais perto de você e nos presentear.
                                     </em>
-                                </a>
+                                </span>
+                                <span class="hidden modal casas_freitas">
+                                    <div class="conteiner">
+                                        <div class="btn close_modal">FECHAR</div>
+                                        <div class="infos">
+                                            <h3 class="descritive">Nas Casas Freitas só é possível presentear, se dirigindo à loja</h3>
+                                            <p class="location"><strong>Locais: </strong> Maranguape ou Pajuçara</p>
+                                            <p class="howto"><strong>Como fazer: </strong> informe a data do casamento e o nome do casal.</p>
+                                        </div>
+                                    </div>
+                                </span>
                             </div>
                             
                         </div>
@@ -163,11 +173,21 @@
                         <span class="text">Você também pode nos presentear com um PIX</span>
                     </li>
                     <li class="pix_image">
-                        <a href="">
+                        <span class="open_modal" data-modal="pix">
                             <img src="./src/images/800px-Logo—pix_powered_by_Banco_Central_(Brazil,_2020).svg.png" alt="">
-                        </a>
+                        </span>
                     </li>
                 </ul>
+                <span class="hidden modal pix">
+                    <div class="conteiner">
+                        <div class="btn close_modal">FECHAR</div>
+                        <div class="infos">
+                            <h3 class="descritive">Essa é a nossa chave pix</h3>
+                            <p class="location"><strong>CPF: </strong> 036.917.473-96</p>
+                            <div class="qr_code"><strong>QR-CODE: </strong><img src="./src/images/pix_qrcode-mp.jpeg" alt=""></div>
+                        </div>
+                    </div>
+                </span>
             </div>
         </section>
 
@@ -178,6 +198,8 @@
         <source src="./src/audio/Melimoficial-dois-coracoes.mp3">
     </audio>
     <footer>
+        <!-- OUTROS SCRIPTS -->
+        <script src="./src/scripts/footer-index.js"></script>
         <!-- WIDGET__TIMERCOUNTDOWN -->
         <script src="./src/widgets/time-countdown/cd-timer.js"></script>
         <link rel="stylesheet" href="./src/widgets/time-countdown/cd-timer.css">
