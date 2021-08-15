@@ -42,6 +42,11 @@
     text-align: center;}
 .card.we_story {
     background-color: transparent}
+.card > h3.inner_description {
+    font-family: -webkit-pictograph;
+    font-size: 1.5rem;
+    text-align: left
+}
 .we_story_btn {
     color: var(--mars-primario);
     background-color: var(--light);
@@ -54,11 +59,7 @@
 .we_story_btn > a > strong {
     margin: 1rem;
 }
-.card > h3.inner_description {
-    font-family: -webkit-pictograph;
-    font-size: 1.5rem;
-    text-align: left
-}
+
 .card > h3 {
     position: relative;
     color: var(--dourado);
@@ -164,6 +165,13 @@ ul.list_pix {
     width: 20rem;
 }
 
+/*  */
+/* SECAO 4 - RODAPE */
+/*  */
+#rodape {
+    background-color: #282828;
+}
+
 
 
 /*  */
@@ -184,6 +192,9 @@ ul.list_pix {
 
     /*  */
     /* SECAO 3 */
+    #links_collection {
+        height: auto;
+    }
     .conteiner_cards {
         margin: auto;
     }
@@ -191,15 +202,21 @@ ul.list_pix {
     .list_cards {
         display: block;
         row-gap: 1rem;
-        height: 60vh;
+        height: auto;
         max-width: 90vw;
     }
     .card.we_story {
         height: 30%;
         margin-bottom: .5rem;
     }
+    .card > h3.inner_description {
+        text-align: center;
+    }
+    .we_story_btn {
+        text-align: center;
+    }
     .card.we_lists {
-        height: 70%;
+        height: 50%;
         padding: 1rem;
     }
     .inner_card_group {
@@ -220,7 +237,7 @@ ul.list_pix {
     .conteiner_pix_option {
         max-height: 7rem;
         max-width: 90vw;
-        margin: 0 auto auto auto;
+        margin: 2rem auto;
     }
     .conteiner_pix_option .description {
         border-radius: 1rem 0 0 1rem;

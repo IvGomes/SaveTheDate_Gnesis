@@ -237,9 +237,10 @@ audio::-webkit-media-controls-time-remaining-display {
         line-height: 4rem;
     }
 
-    article.article_text {
+    .article_text {
         margin: auto auto auto auto;
-        font-size: 1.9rem;
+        padding: 0 1rem;
+        font-size: 1.8rem;
         font-style: italic;
     }
 
