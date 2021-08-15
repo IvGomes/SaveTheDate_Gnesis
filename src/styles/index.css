@@ -9,11 +9,6 @@
     background-repeat: no-repeat;
 }
 
-.article_text {
-    margin: auto 5rem;
-    font-size: 2rem;
-}
-
 .rsvp_btn {
     color: var(--light);
     background-color: var(--mars-primario);
@@ -45,12 +40,31 @@
     padding: 2rem 1rem;
     border-radius: 1rem;
     text-align: center;}
+.card.we_story {
+    background-color: transparent}
+.we_story_btn {
+    color: var(--mars-primario);
+    background-color: var(--light);
+    margin-top: .5rem;
+    padding: .1rem 1rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: left}
+.we_story_btn > a > strong {
+    margin: 1rem;
+}
+.card > h3.inner_description {
+    font-family: -webkit-pictograph;
+    font-size: 1.5rem;
+    text-align: left
+}
 .card > h3 {
     position: relative;
     color: var(--dourado);
     font-family: 'Dancing Script', pacifico, cursive;
     font-size: 2rem;
-    text-transform: capitalize}
+    text-transform: none}
 
 
 .inner_card {

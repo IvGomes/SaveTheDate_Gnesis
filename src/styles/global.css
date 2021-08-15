@@ -15,6 +15,9 @@ html {
 /*  */
 /* CONFIGURACOES DE TAG PADRAO */
 /*  */
+header > h1 {
+    font-family: 'Dancing Script', pacifico, cursive;
+}
 body {
     height: 100%;
     background-color: var(--mars-primario);
@@ -36,9 +39,9 @@ section {
 h2.title {
     font-family: 'Dancing Script', pacifico, cursive;
     max-width: 50rem;
-    margin: 9rem auto 0 auto;
-    font-size: 5rem;
-    line-height: 5rem}
+    margin: 8rem auto 0 auto;
+    font-size: 4.5rem;
+    line-height: 4.5rem}
 h2.white_bg {
     color: var(--dourado)}
 h2.marsala_bg {
@@ -57,6 +60,9 @@ a:visited {
 
 .hidden {
     display: none;
+}
+.underline {
+    text-decoration: underline;
 }
                 
 
@@ -121,6 +127,21 @@ a:visited {
 .btn > a > strong {
     margin: 2rem;
 }
+
+
+/*  */
+/* ARTIGO */
+/*  */
+.article_text {
+    margin: auto 5rem;
+    padding: 0 20rem;
+    font-family: -webkit-pictograph;
+    font-size: 2rem;
+}
+.article_text p{
+    margin-bottom: 2rem;
+}
+
 
 /*  */
 /* MODAL */
