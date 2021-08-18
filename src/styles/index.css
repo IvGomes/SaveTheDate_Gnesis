@@ -8,6 +8,9 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.article_text p.atention {
+    text-transform: uppercase;
+}
 
 .rsvp_btn {
     color: var(--light);
@@ -164,15 +167,6 @@ ul.list_pix {
 .modal.pix .qr_code img {
     width: 20rem;
 }
-
-/*  */
-/* SECAO 4 - RODAPE */
-/*  */
-#rodape {
-    background-color: #282828;
-}
-
-
 
 /*  */
 /* MOBILE */
