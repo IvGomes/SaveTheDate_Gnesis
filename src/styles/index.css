@@ -175,7 +175,8 @@ ul.list_pix {
     /*  */
     /* SECAO 2 */
     #presence_section {
-        padding: 0 1rem;
+        height: auto;
+        padding: 0 1rem 2rem;
     }
 
     .rsvp_btn {
